@@ -4,6 +4,8 @@
 - PROYECT: ARGENTINA DEATHS (FROM 2015 TO 2021)
 - __SQL SERVER__
 
+The purpose of this project is to understand the behavior of deaths in Argentina. Every society needs to know its situation regarding every aspect of life, education, public spending, and of course, health. As the popular saying goes, knowledge is power, and knowing this information is crucial not only for political institutions but also for citizens, as they can become aware of issues concerning their health. Therefore, I decided to investigate these patterns on my own using public data provided by the Ministry of Health. Although these institutions carry out their own analysis, I deemed it optimal to undertake this as a personal and amateur project to measure my analytical skills. Without further ado, these are my results:
+
 ## Index
 1. Introductories queries
 2. Demographic queries
