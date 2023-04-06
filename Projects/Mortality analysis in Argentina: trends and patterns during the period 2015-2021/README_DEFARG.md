@@ -22,6 +22,8 @@ The tools used for data cleaning, extraction, preparation, and analysis were:
 
 - __R__: Like SQL, the R programming language was used to filter, sort, and validate the data to ensure its accuracy.
 
+- __Visualization tools__: Tableau and PowerBi
+
 ## Details about the dataset and project
 - The nomenclature for causes of death corresponds to those defined in the ICD-10 by the WHO and followed by the Argentine Ministry of Health.
 
