@@ -379,8 +379,9 @@ ORDER BY TOTAL_2015_2021 DESC;
 
 This table shows us the main causes of death, which is not surprising, as they are usually the most common in modern times, related to sedentary habits and poor nutrition, causes of which Argentine citizens are not exempt.
 
+![Total Enfermedades](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Total_enfermedades.png?raw=true)
 
-
+![Comportamiento de ciertas enfermedades a lo largo del año](C:/Users/TuUsuario/Downloads/Total_enfermedades.png)
 
 ```sql
 SELECT 
@@ -533,6 +534,10 @@ ORDER BY Age_group DESC;
 | 01.menor a 20 anios     | 1600 MALFORM  CONGENITAS, DEFORM  Y ANOM  CROMOSOMICAS     | 13566   |
 
 
+![ENFERMEDADES COMUNES](https://raw.githubusercontent.com/ERICHE18/Esteban_Portfolio/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/ENFERMEDADES%20COMUNES.png)
+
+
+
 ## __4. Queries about covid-19__
 
 ```sql
@@ -592,6 +597,8 @@ ORDER BY TOTAL DESC;
 | 08/2021 | 0100 CIERTAS ENF INFECCIOSAS Y PARASITARIAS | 6817  |
 
 __Since 2015, the top 10 months in terms of results have been in 2020-2021__. Therefore, our hypothesis was not incorrect.
+
+![COVID](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/COVID.png?raw=true)
 
 ### __The age groups with the most deaths by Infectious and Parasitic Diseases__
 
@@ -725,6 +732,8 @@ ORDER BY Total DESC;
 | 2.Mujeres | 02.de 20 a 39 anios | 1700 CAUSAS EXTERNAS | 7262  |
 | 2.Mujeres | 01.menor a 20 anios | 1700 CAUSAS EXTERNAS | 4548  |
 
+
+![External cause by gender and age](https://raw.githubusercontent.com/ERICHE18/Esteban_Portfolio/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/External%20cause%20by%20gender%20and%20age.png)
 
 ## __6. Conclusions__
 
