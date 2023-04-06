@@ -138,9 +138,6 @@ ORDER BY anio_def DESC;
 
 Same like males deaths, we see an increment.
 
-![Comparison between men and women](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Comparison%20between%20men%20and%20women.png?raw=true)
-
-
 ### __B. Age group queries__
 
 ```sql
@@ -207,6 +204,8 @@ ORDER BY TOTAL_DEATHS DESC;
 
 Here we observe that __women have a higher life expectancy, with the highest number of deaths occurring above 80+__, while in the rest of the age groups the death of men tends to predominate.
 
+![Comparison between men and women](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Comparison%20between%20men%20and%20women.png?raw=true)
+
 ### __C. Queries about dates__
 
 ### __Deaths by year__
@@ -230,6 +229,9 @@ ORDER BY Porcent DESC;
 | 2015 | 333443 | 13.25%  |
 
 The years appear in order from the most deadly to the least deadly. We se again the increment in 2020 and 2021.
+
+![Years](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Years.png?raw=true)
+
 
 ### __Most deadly months__
 
@@ -260,6 +262,9 @@ ORDER BY Total DESC;
 | 0     | 1422   | 0.06%   |
 
 We see that __the"deadliest" month is 07 (July)__, which is the beginning of winter in Argentina, facilitating the appearance of certain diseases as we will see later. On the other hand, the __"healthiest" month is 02 (February)__, corresponding to summer. In addition, we observe that there are a total of 1422 deaths that do not have a defined month.
+
+![Months.png](https://raw.githubusercontent.com/ERICHE18/Esteban_Portfolio/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Months.png)
+
 
 #### __The 10 deadliest months from 2015 to 2021__
 ```sql
@@ -371,7 +376,11 @@ ORDER BY TOTAL_2015_2021 DESC;
 | 0600 Bacterial and viral infections of the central nervous system | 1993        | 0.08%   |
 
 
+
 This table shows us the main causes of death, which is not surprising, as they are usually the most common in modern times, related to sedentary habits and poor nutrition, causes of which Argentine citizens are not exempt.
+
+
+
 
 ```sql
 SELECT 
