@@ -138,7 +138,8 @@ ORDER BY anio_def DESC;
 
 Same like males deaths, we see an increment.
 
-![]([https://github.com/ERICHE18/Esteban_Portfolio/blob/main/PROJECT_DEATHS_IN_ARGENTINA/Imagenes/Months.png?raw=true](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Comparison%20between%20men%20and%20women.png))
+![Comparison between men and women](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Comparison%20between%20men%20and%20women.png?raw=true)
+
 
 ### __B. Age group queries__
 
