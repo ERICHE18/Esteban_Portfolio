@@ -292,6 +292,8 @@ ORDER BY Total DESC;
 
 Out of 10, __8 are months from the years 2020-2021__, with 5 from 2021 and 3 from 2020, making 2021 one of the unfortunately deadliest years. For the rest of the years, they never exceeded the 37,476 deaths of 2017. Interestingly, in our selected years, 2017 and 2016 had more deaths despite not being in a pandemic.
 
+![Behavior of certain diseases throughout the year](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Behavior%20of%20certain%20diseases%20throughout%20the%20year.png?raw=true)
+
 ## __3. About the Causes of death__
 This query returns the nomenclatures of the causes of death.
 
@@ -380,8 +382,6 @@ ORDER BY TOTAL_2015_2021 DESC;
 This table shows us the main causes of death, which is not surprising, as they are usually the most common in modern times, related to sedentary habits and poor nutrition, causes of which Argentine citizens are not exempt.
 
 ![Total Enfermedades](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Total_enfermedades.png?raw=true)
-
-![Comportamiento de ciertas enfermedades a lo largo del año](C:/Users/TuUsuario/Downloads/Total_enfermedades.png)
 
 ```sql
 SELECT 
