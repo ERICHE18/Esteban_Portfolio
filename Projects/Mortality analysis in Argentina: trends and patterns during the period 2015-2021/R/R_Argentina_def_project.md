@@ -44,6 +44,7 @@ total_anuales <- data %>%
 | 2018     | 337600      | 13.41%     | 7.332005        |
 | 2015     | 333443      | 13.25%     | 7.241723        |
 
+![Years](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Years.png?raw=true)
 
 ### __Most deadly months__ 
 ```r
@@ -71,6 +72,11 @@ deadly_months_porcent <- data %>%
 |      02 | 173118 |      6.88% |
 |      00 |   1422 |      0.06% |
 
+
+![Months.png](https://raw.githubusercontent.com/ERICHE18/Esteban_Portfolio/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Months.png)
+
+![Behavior of certain diseases throughout the year](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Behavior%20of%20certain%20diseases%20throughout%20the%20year.png?raw=true)
+
             
 ### __Comparison of men and women__
 ```r
@@ -90,6 +96,8 @@ View(total_sexs_porcent)
 | 2   | Mujeres        | 1211129  | 48.122%    |
 | 3   | Sin especificar | 8657     | 0.344%     |
 | 4   | Ignorado       | 98       | 0.004%     |
+
+![Comparison between men and women](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Comparison%20between%20men%20and%20women.png?raw=true)
 
 
 ### __Total by cause of death__
@@ -125,7 +133,8 @@ View(total_causa_def)
 | 0400 DEF  Y ANEMIAS NUTRICION                                    | 6012           | 0.24%      |
 | 1400 EMBARAZO, PARTO Y PUERPERIO                                  | 2122           | 0.08%      |
 | 0600 MENINGITIS                                                  | 1993           | 0.08%      |
-     
+  
+![Total Enfermedades](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/Total_enfermedades.png?raw=true)  
             
 ### __Total by Age group__
 ```R
@@ -179,6 +188,8 @@ print(total_por_edades)
 | 08.sin especificar   | Varones     | 7923            |
 | 08.sin especificar   | Mujeres     | 5317            |
 | 08.sin especificar   | Sin especificar| 765         |
+
+
 ## Deaths by External causes
 
 ### __External causes by gender__
@@ -197,6 +208,9 @@ View(external_cause_sex)
 | 2. Mujeres      |            33640 |
 | 9. Sin especificar |              513 |
 | 3. Ignorado       |                4 |
+
+
+![External cause by gender and age](https://raw.githubusercontent.com/ERICHE18/Esteban_Portfolio/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/External%20cause%20by%20gender%20and%20age.png)
             
 
 ### __External cause between 0-39 years old__
@@ -217,6 +231,8 @@ print(external_cause_20_39)
 | 2. Mujeres      | 11810 |
 | 9. Sin especificar |   197 |
 | 3. Ignorado       |     2 |
+
+
 
 ### __COVID-19__ 
 # The impact of Covid-19 starting from 2020
@@ -273,6 +289,7 @@ print(COVID_months, n = 20)
 | 11/2021            | 1739            |
 | 05/2020            | 1569            |
 
-            
+
+![COVID](https://github.com/ERICHE18/Esteban_Portfolio/blob/main/Projects/Mortality%20analysis%20in%20Argentina:%20trends%20and%20patterns%20during%20the%20period%202015-2021/Visualization/Tableau/COVID.png?raw=true)
             
             
