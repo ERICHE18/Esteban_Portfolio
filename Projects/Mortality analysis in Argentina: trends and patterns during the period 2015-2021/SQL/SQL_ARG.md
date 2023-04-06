@@ -2,7 +2,7 @@
 
 - AUTOR: ESTEBAN R.
 - PROYECT: ARGENTINA DEATHS (FROM 2015 TO 2021)
-- TOOL: SQL SERVER
+- __SQL SERVER__
 
 ## Index
 1. Introductories queries
